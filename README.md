@@ -1,8 +1,9 @@
-
 # 🎷 Tom's Jazz School - Landing Page
 
+[Tom's Jazz School](https://ana-livia-castro.github.io/lptoms-jazz-school/)
 
 Esta é a página inicial do projeto Tom's Jazz School, desenvolvida como parte do tutorial do canal One Bit Code. A construção da página é baseada em HTML e CSS.
+
 ## 📖 Aprendizados
 
 Apliquei habilidades em HTML e CSS para adicionar toques elegantes à página, incorporando técnicas como seletores universais, consultas de mídia, variáveis de cor e layout responsivo. Isso garante que a página mantenha sua impressionante aparência e funcionalidade perfeita, independentemente do dispositivo usado para acessá-la, seja um smartphone ou um monitor de grande porte.
@@ -19,16 +20,13 @@ Na parte do rodapé, é possível encontrar informações adicionais sobre a esc
 
 ## Documentação de cores
 
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Color-primary       | ![#ed4d1b](https://via.placeholder.com/10/ed4d1b?text=+) #ed4d1b |
-| Color-secundary       | ![#ff9a3c](https://via.placeholder.com/10/ff9a3c?text=+) #ff9a3c |
-| Color-black       | ![#000000](https://via.placeholder.com/10/000?text=+) #000000 |
-
-
+| Cor             | Hexadecimal                                                      |
+| --------------- | ---------------------------------------------------------------- |
+| Color-primary   | ![#ed4d1b](https://via.placeholder.com/10/ed4d1b?text=+) #ed4d1b |
+| Color-secundary | ![#ff9a3c](https://via.placeholder.com/10/ff9a3c?text=+) #ff9a3c |
+| Color-black     | ![#000000](https://via.placeholder.com/10/000?text=+) #000000    |
 
 ## 🚀 Tecnologias usadas
-
 
 <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html" />
