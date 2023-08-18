@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles/register.css" />
+    <title>Tom's Jazz SchooL | Register</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.svg" alt="Tom's Jazz School" />
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form-container mt-2 mb-2">
+            <h2>Inscreva-se</h2>
+            <form>
+                <div class="form-group mt-1">
+                    <label for="nome">Nome Completo</label>
+                    <div class="icon">
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required /><i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="date">Data de Nascimento</label>
+                    <div class="icon">
+                    <input type="date" class="mb-1" name="nascimento" id="nascimento" required />
+                
+                </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="icon">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirma-email">Confirmação de email</label>
+                        <div class="icon">
+                            <input type="email" id="confirma-email" name="confirma-email" placeholder="Digite seu e-mail novamente" required />
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                        <label for="senha">Senha</label>
+                    <div class="icon">
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required />
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <button class="button mt-1 mx-auto
+                    " type="submit">Registrar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="about-column">
+                <img src="img/logo.svg" alt="Tom's Jazz School" class="mt-1 mb-1" />
+                <p class="mb-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <nav class="mb-2">
+                <a href="index.html">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <form class="newsletter-form">
+                <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+                <input type="email" name="email" id="email" class="mb-1" placeholder="Digite o seu email" />
+                <a href="#" class="button mb-2">Quero receber</a>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
