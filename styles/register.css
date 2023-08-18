@@ -9,7 +9,6 @@
   --color-primary: #ed4d1b;
   --color-secundary: #ff9a3c;
   --color-black: #000000;
-  --color-white: #ffffff;
 }
 body {
   background: linear-gradient(90deg, #ffe7d1 0%, #fff2e5 100%);
